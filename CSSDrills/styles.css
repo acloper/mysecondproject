@@ -1,0 +1,110 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: fuchsia;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: 900;
+    color: royalblue;
+}
+
+span {
+    color: forestgreen;
+    font-weight: 700;
+}
+
+.boxes {
+    display: block;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    width: 30em;
+}
+
+#box1 {
+    background-color: deepskyblue;
+}
+
+#box2 {
+    background-color: rosybrown;
+}
+
+#box3 {
+    background-color: greenyellow;
+}
+
+#box4 {
+    background-color: peru;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 3rem;
+    top: 4rem;
+}
+
+h1 {
+    color: teal;
+}
+
+.original {
+    color: indianred;
+}
+
+.additional {
+    color: deepskyblue;
+}
+
+#rank1 {
+    color: gold;
+}
+
+#rank2 {
+    color: lightseagreen;
+}
+
+#rank3 {
+    color: maroon;
+}
+
+#rank4 {
+    color: mediumpurple;
+}
+
+#rank5 {
+    color: orchid;
+}
+
+ul {
+    color: seagreen;
+}
+
+.star {
+    color: violet;
+}
+
+#wars {
+    color: royalblue;
+}
+
+.list {
+    border: 2px solid black;
+}
