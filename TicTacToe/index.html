@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <section>
     <div id="board">
-        <h1>Tic Tac Toe</h1>
-        <div class="row">
-            <div class="top left"></div>
-            <div class="top middle"></div>
-            <div class="top right"></div>
-        </div>
-        <div class="row">
-            <div class="middle left"></div>
-            <div class="center"></div>
-            <div class="middle right"></div>
-        </div>
-        <div class="row">
-            <div class="bottom left"></div>
-            <div class="bottom middle"></div>
-            <div class="bottom right"></div>
-        </div>
+      <h1>Tic Tac Toe</h1>
+      <h2 id="playText"></h2>
+      <div class="row">
+        <div class="top left"></div>
+        <div class="top middle"></div>
+        <div class="top right"></div>
+      </div>
+      <div class="row">
+        <div class="middle left"></div>
+        <div class="center middle"></div>
+        <div class="middle right"></div>
+      </div>
+      <div class="row">
+        <div class="bottom left"></div>
+        <div class="bottom middle"></div>
+        <div class="bottom right"></div>
+      </div>
     </div>
+    <div style="text-align: center;">
+      <button onClick="window.location.reload();">Restart Game!</button>
+    </div>
+    </section>
+  <script src="app.js"></script>
 </body>
 </html>

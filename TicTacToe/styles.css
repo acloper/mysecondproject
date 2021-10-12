@@ -1,38 +1,46 @@
 #board {
-    padding: 3em;
-    text-align: center;
+  padding: 3em;
+  text-align: center;
 }
 
-.row > div{
-    float: left;
-    height: 100px;
-    width: 100px;
-    cursor: pointer;
+.row > div {
+  float: left;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 75px;
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .row {
-    margin: 0 auto;
-    width: 302px;
-  }
+  margin: 0 auto;
+  width: 302px;
+  clear: both;
+}
 
 .top {
-    border-bottom: 1px black solid;
+  border-bottom: 1px black solid;
 }
 
 .bottom {
-    border-top: 1px black solid;
+  border-top: 1px black solid;
 }
 
 .right {
-    border-left: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .left {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
+}
+
+button {
+  box-shadow: black 1px 2px;
+  border-radius: .4rem;
 }
